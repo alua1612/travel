@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import banner from './images/main-banner.jpg'
+import logo from './images/travel-logo.svg'
+import './App.scss';
+import Advantages from './Advantages';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='banner'>
+        <img src={banner} alt='banner' className='banner-img'/>
+        <div className='banner-text container'>
+          <img className='logo' src={logo}/>
+          <h1 className='banner-title'>Путешествуй по Казахстану</h1>
+        </div>
+      </div>
+      <Advantages />
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #1e2a41;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+.body {
+  display: grid;
+  gap: 48px;
+  grid-template-columns: repeat(3, 265px);
+
+  div {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 16px;
+      color: #303030;
+    }
+  }
+}
+
+.icon {
+  margin-right: 16px;
+}

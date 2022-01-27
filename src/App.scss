@@ -1,10 +1,45 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  max-width: 100%;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.logo {
+  position: relative;
+  width: 140px;
+  top: 30px;
+}
+
+.banner-title {
+  position: relative;
+  font-weight: 500;
+  font-size: 48px;
+  color: #fff;
+  width: 600px;
+  transform: translateY(50%);
 }
 
 @media (prefers-reduced-motion: no-preference) {
