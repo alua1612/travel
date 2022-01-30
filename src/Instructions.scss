@@ -1,0 +1,27 @@
+.instructions {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 48px 80px;
+
+  .instr-title {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #303030;
+    margin-bottom: 24px;
+  }
+}
+
+.carousel {
+  .react-images__navigation {
+    button {
+      background-color: black;
+    }
+  }
+}
+
+.mySwiper {
+  text-align: center;
+  width: 400px;
+  height: 450px;
+}

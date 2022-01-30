@@ -3,6 +3,7 @@ import banner from './images/main-banner.jpg'
 import logo from './images/travel-logo.svg'
 import './App.scss';
 import Advantages from './Advantages';
+import Instructions from './Instructions';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </div>
       </div>
       <Advantages />
+      <Instructions />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import search from './images/search.svg';
 
 export default function Advantages() {
     return (
-        <div className='container'>
+        <div className='container advantages'>
             <h2 className='title'>Преимущества продукта</h2>
             <div className='body'>
                 <div>
